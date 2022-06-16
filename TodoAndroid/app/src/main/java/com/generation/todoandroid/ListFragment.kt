@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.generation.todoandroid.adapter.TarefaAdapter
 import com.generation.todoandroid.databinding.FragmentListBinding
+import com.generation.todoandroid.model.Categoria
 import com.generation.todoandroid.model.Tarefa
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
@@ -35,13 +36,15 @@ class ListFragment : Fragment() {
       // exemplo de uma varivel para exibir na tela com view:
       //  val view = inflater.inflate(R.layout.fragment_list, container, false)
         //val floatingAdd = view.findViewById<FloatingActionButton>(R.id.floatingAdd)
+        /* modo manual
        var listTarefas = listOf (
-            Tarefa("Lavar a louca",
+            Tarefa(0 +
+                    "",
                 "Lavar a louca do dia todo",
-                "Miriam",
+                "Lavar a louca do dia todo""Miriam",
                 "2022-05-15",
                 false,
-                "Dia a Dia"
+                Categoria(1, "Lazer",{0} )
 
         ),
             Tarefa("Ir ao Cinama",
@@ -57,13 +60,17 @@ class ListFragment : Fragment() {
                 "2022-05-15",
                 true,
                 "Dia a Dia")
+
+
         )
+
+         */
         //configuracao do recyclerview
         val adapter = TarefaAdapter ()
         binding.recyclerTarefa.layoutManager = LinearLayoutManager(context)
         binding.recyclerTarefa.adapter = adapter
         binding.recyclerTarefa.setHasFixedSize(true)
-        adapter.setList(listTarefas)
+        //adapter.setList(listTarefas)
         binding.floatingAdd.setOnClickListener {
             findNavController().navigate(R.id.action_listFragment_to_formFragment6)
         }
