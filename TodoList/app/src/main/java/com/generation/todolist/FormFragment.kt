@@ -6,65 +6,141 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.Button
+import android.widget.Toast
 import androidx.fragment.app.activityViewModels
-import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.generation.todolist.databinding.FragmentFormBinding
-import com.generation.todolist.databinding.FragmentListBinding
 import com.generation.todolist.fragment.DatePickerFragment
-import com.generation.todolist.fragment.TimerPickerListener
+import com.generation.todolist.fragment.TimePickerListener
 import com.generation.todolist.model.Categoria
+import com.generation.todolist.model.Tarefa
 import java.time.LocalDate
+import java.util.logging.Level
 
-class FormFragment : Fragment(), TimerPickerListener{
 
-    private lateinit var binding: FragmentFormBinding
-    private val mainViewModel: MainViewModel by activityViewModels()
+class FormFragment : Fragment(), TimePickerListener {
+
+    private lateinit var binding : FragmentFormBinding
+    private  val mainViewModel : MainViewModel by activityViewModels()
+    private  var categoriaSelecionada = 0L
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        binding = FragmentFormBinding
-            .inflate(layoutInflater, container, false)
+
+        binding = FragmentFormBinding.inflate(layoutInflater, container, false)
+
         binding.editData.setOnClickListener {
-            DatePickerFragment(this,).show(parentFragmentManager, "DataPicker")
+
+            DatePickerFragment(this).show(parentFragmentManager, "DatePicker")
+
         }
 
         mainViewModel.listCategoria()
 
-        mainViewModel.myCategoriaResponse.observe(viewLifecycleOwner){
-          response ->  Log.d("Requisicao", response.body().toString())
+        mainViewModel.dataSelecionada.value = LocalDate.now()
+
+        mainViewModel.myCategoriaResponse.observe(viewLifecycleOwner){ response ->
+
+            Log.d("Requisição", response.body().toString())
             spinnerCategoria(response.body())
 
         }
-        mainViewModel.dataSelecionada.value = LocalDate.now()
+
         mainViewModel.dataSelecionada.observe(viewLifecycleOwner){
-            selectedDate -> binding.editData.setText(selectedDate.toString())
+
+                selectdate -> binding.editData.setText(selectdate.toString())
+
         }
+
+
         binding.buttonSalvar.setOnClickListener {
-            findNavController().navigate(R.id.action_formFragment_to_listFragment)
+
+            inserirNoBanco()
+
         }
 
         return binding.root
     }
-    fun spinnerCategoria(listCategoria : List<Categoria>?){
-        if (listCategoria != null){
-            binding.spinnerCategoria.adapter =
-                ArrayAdapter (
-                    requireContext(),
-                   androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,
-                    listCategoria
 
-                        )
+
+    private  fun spinnerCategoria(listCategoria : List<Categoria>?){
+
+        if ( listCategoria!= null ){
+
+            binding.spinnerCategoria.adapter = ArrayAdapter(requireContext(), androidx.appcompat.R.layout.support_simple_spinner_dropdown_item
+                , listCategoria)
+        }
+
+        binding.spinnerCategoria.onItemSelectedListener =
+            object : AdapterView.OnItemSelectedListener{
+
+                override fun onItemSelected(
+                    parent: AdapterView<*>?,
+                    view: View?,
+                    position: Int,
+                    id: Long
+                ) {
+
+                    val selected = binding.spinnerCategoria.selectedItem as Categoria
+
+                    categoriaSelecionada = selected.id
+
+                }
+
+                override fun onNothingSelected(parent: AdapterView<*>?) {
+                    TODO("Not yet implemented")
+                }
+            }
+
+
+    }
+
+    private fun validarCampos(nomeTarefa: String, descriçãoTarefa: String, responsavel:String) : Boolean{
+
+        return !(nomeTarefa == "" || nomeTarefa.length < 3 || nomeTarefa.length> 20)||
+                (descriçãoTarefa == ""|| descriçãoTarefa.length <5 || descriçãoTarefa.length > 200)||
+                (responsavel == ""|| responsavel.length <5 || responsavel.length > 20)
+    }
+
+    private fun inserirNoBanco(){
+
+        val nome = binding.editNome.text.toString()
+        val descriçãoTarefa = binding.editDescricao.text.toString()
+        val responsavel = binding.editResponsavel.text.toString()
+        val data = binding.editData.text.toString()
+        val status = binding.switchAtivoCard.isChecked
+        val categoria = Categoria(categoriaSelecionada, null, null)
+
+        if (validarCampos(nome, descriçãoTarefa, responsavel)){
+
+            val tarefa = Tarefa(0,nome, descriçãoTarefa, responsavel, data, status, categoria)
+            mainViewModel.addTarefa(tarefa)
+            Toast.makeText(context, "Tarefa cadastrada com sucesso", Toast.LENGTH_LONG).show()
+            findNavController().navigate(R.id.action_formFragment_to_listFragment)
+
+
+
+
+        }else{
+
+            Toast.makeText(context, "Preencha os campos corretamente", Toast.LENGTH_LONG).show()
+
         }
 
     }
 
-    override fun onDateSelected(date: LocalDate) {
+
+
+
+
+    override fun onDateSelectd(date: LocalDate) {
         mainViewModel.dataSelecionada.value = date
+
     }
 }

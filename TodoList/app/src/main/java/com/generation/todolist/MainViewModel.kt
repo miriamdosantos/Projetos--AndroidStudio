@@ -7,7 +7,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.generation.todolist.api.Repository
 import com.generation.todolist.model.Categoria
+import com.generation.todolist.model.Tarefa
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Response
 import java.time.LocalDate
@@ -16,25 +18,59 @@ import javax.inject.Inject
 @HiltViewModel
 class MainViewModel @Inject constructor(
     private val repository: Repository
-        ): ViewModel(){
+) : ViewModel() {
 
-    private var _myCategoriaResponse = MutableLiveData<Response<List<Categoria>>>()
+    private val _myCategoriaResponse = MutableLiveData<Response<List<Categoria>>>()
 
     val myCategoriaResponse: LiveData<Response<List<Categoria>>> =
         _myCategoriaResponse
+    private val _myTarefaResponse = MutableLiveData<Response<List<Tarefa>>>()
+    val myTarefaResponse: LiveData<Response<List<Tarefa>>> = _myTarefaResponse
 
     val dataSelecionada = MutableLiveData<LocalDate>()
+
+
     init {
         //listCategoria()
     }
 
-    fun listCategoria(){
+    fun listCategoria() {
         viewModelScope.launch {
             try {
                 val response = repository.listCategoria()
                 _myCategoriaResponse.value = response
-            }catch (e: Exception){
+            } catch (e: Exception) {
                 Log.d("ErroRequisicao", e.message.toString())
+            }
+        }
+    }
+
+    fun addTarefa(tarefa: Tarefa) {
+
+        viewModelScope.launch {
+            try {
+                val response = repository.addTarefa(tarefa)
+                Log.d("opa", response.body().toString())
+                listTarefa()
+            } catch (e: Exception) {
+                Log.d("Erro", e.message.toString())
+
+
+            }
+        }
+    }
+
+
+    private fun listTarefa() {
+        viewModelScope.launch {
+            try {
+                val response = repository.listTarefa()
+                _myTarefaResponse.value = response
+
+            } catch (e: Exception) {
+                Log.d("Erro", e.message.toString())
+
+
             }
         }
     }
