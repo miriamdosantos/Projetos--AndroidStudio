@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TodoList.iml" filepath="$PROJECT_DIR$/.idea/TodoList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/src/app.iml" filepath="$PROJECT_DIR$/app/src/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/build/tmp/build.iml" filepath="$PROJECT_DIR$/app/build/tmp/build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/app/build/generated/source/buildConfig/buildConfig.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/build/generated/hilt/component_sources/component_sources.iml" filepath="$PROJECT_DIR$/app/build/generated/hilt/component_sources/component_sources.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/build/generated/hilt/component_trees/component_trees.iml" filepath="$PROJECT_DIR$/app/build/generated/hilt/component_trees/component_trees.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/data_binding_base_class_source_out.iml" filepath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/data_binding_base_class_source_out.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/build/generated/source/kapt/kapt.iml" filepath="$PROJECT_DIR$/app/build/generated/source/kapt/kapt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Todo_List.iml" filepath="$PROJECT_DIR$/.idea/modules/Todo_List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Todo_List.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Todo_List.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Todo_List.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Todo_List.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Todo_List.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Todo_List.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Todo_List.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Todo_List.app.unitTest.iml" />
     </modules>
   </component>
 </project>

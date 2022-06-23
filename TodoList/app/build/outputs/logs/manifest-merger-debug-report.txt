@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\miria\.gradle\caches\transforms-3\15e33196654f1b907fd6489f6b87c039\transformed\viewbinding-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\miria\.gradle\caches\transforms-3\5e7cb3d3dfee873addd8376fc5f5bdff\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\miria\.gradle\caches\transforms-3\ce68b2c8e37ae7284c63f62f9b331582\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:17:1-24:12
@@ -63,31 +63,31 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\miria\.gradle\caches\transforms-3\524b553b701ec9f99394949949297152\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\miria\.gradle\caches\transforms-3\d7cf7a588526d616a550b26031fb7e8f\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.40] C:\Users\miria\.gradle\caches\transforms-3\8861259bbb55b0cf6aadd188a1884984\transformed\dagger-lint-aar-2.40\AndroidManifest.xml:16:1-19:12
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:4:5-38
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:6:5-66
+ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:8:5-28:19
+ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:8:5-28:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\miria\.gradle\caches\transforms-3\6915fea32050763b3e646ab2157c63d7\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\miria\.gradle\caches\transforms-3\6915fea32050763b3e646ab2157c63d7\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\miria\.gradle\caches\transforms-3\97965acb4e17b22996ac8fe8cb904b05\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
@@ -107,45 +107,45 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\miria\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\miria\.gradle\caches\transforms-3\c1e614b6b9fe303cafa49292584b60e5\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:15:9-54
 	tools:targetApi
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:18:9-29
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:17:9-46
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:17:9-46
 	android:dataExtractionRules
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:11:9-65
 	android:name
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:9:9-40
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:9:9-40
 activity#com.generation.todolist.MainActivity
-ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:19:9-27:20
+ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:exported
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\miria\.gradle\caches\transforms-3\15e33196654f1b907fd6489f6b87c039\transformed\viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\miria\.gradle\caches\transforms-3\15e33196654f1b907fd6489f6b87c039\transformed\viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\miria\.gradle\caches\transforms-3\5e7cb3d3dfee873addd8376fc5f5bdff\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
@@ -264,16 +264,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\miria\.
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\miria\.gradle\caches\transforms-3\d7cf7a588526d616a550b26031fb7e8f\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.dagger:dagger-lint-aar:2.40] C:\Users\miria\.gradle\caches\transforms-3\8861259bbb55b0cf6aadd188a1884984\transformed\dagger-lint-aar-2.40\AndroidManifest.xml:18:3-42
 MERGED from [com.google.dagger:dagger-lint-aar:2.40] C:\Users\miria\.gradle\caches\transforms-3\8861259bbb55b0cf6aadd188a1884984\transformed\dagger-lint-aar-2.40\AndroidManifest.xml:18:3-42
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\miria\Desktop\Git\Projetos--AndroidStudio\TodoList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\miria\Downloads\Projetos--AndroidStudio-main\TodoList\app\src\main\AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] C:\Users\miria\.gradle\caches\transforms-3\6915fea32050763b3e646ab2157c63d7\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 	android:required
