@@ -1,15 +1,19 @@
 [
     {
-        "merged": "com.generation.todolist.app-mergeDebugResources-37:/layout/card_layout.xml",
-        "source": "com.generation.todolist.app-main-40:/layout/card_layout.xml"
+        "merged": "C:\\Users\\miria\\.gradle\\daemon\\7.3.3\\com.generation.todolist.app-mergeDebugResources-37:\\layout\\card_layout.xml",
+        "source": "C:\\Users\\miria\\.gradle\\daemon\\7.3.3\\com.generation.todolist.app-main-40:\\layout\\card_layout.xml"
     },
     {
-        "merged": "com.generation.todolist.app-mergeDebugResources-37:/layout/activity_main.xml",
-        "source": "com.generation.todolist.app-main-40:/layout/activity_main.xml"
+        "merged": "C:\\Users\\miria\\.gradle\\daemon\\7.3.3\\com.generation.todolist.app-mergeDebugResources-37:\\layout\\fragment_form.xml",
+        "source": "C:\\Users\\miria\\.gradle\\daemon\\7.3.3\\com.generation.todolist.app-main-40:\\layout\\fragment_form.xml"
     },
     {
-        "merged": "com.generation.todolist.app-mergeDebugResources-37:/layout/fragment_list.xml",
-        "source": "com.generation.todolist.app-main-40:/layout/fragment_list.xml"
+        "merged": "C:\\Users\\miria\\.gradle\\daemon\\7.3.3\\com.generation.todolist.app-mergeDebugResources-37:\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\miria\\.gradle\\daemon\\7.3.3\\com.generation.todolist.app-main-40:\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\miria\\.gradle\\daemon\\7.3.3\\com.generation.todolist.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\miria\\.gradle\\daemon\\7.3.3\\com.generation.todolist.app-main-40:\\layout\\activity_main.xml"
     },
     {
         "merged": "com.generation.todolist.app-mergeDebugResources-37:/layout/fragment_form.xml",
